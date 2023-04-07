@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../pythonstyle.css">
+    <link rel="icon" type="image/x-icon" href="../images/logo.png">
+    <title>FC Barcelona</title>
+    
+</head>
+<body>
+    <!-- <div class="bg">
+        <div class="main">
+          <h1>Բարսելոնա</h1>
+      
+          <h3>Կազմ</h3>
+        
+          <p>Բարսելոնայի <a href="barcahome/">Կազմը<a></p>
+        </div>
+      </div> -->
+
+      <div class="nav">
+        <img src="../images/logo.png" class="logo">
+        <p>més que un club</p>
+        <h1> <span>FC</span>  BARCELONA</h1>
+        <h1><span>Home </span>Page</h1>
+      </div>
+      <div class="mainslider">
+        <div class="slider">
+          <div class="slides">
+            <input type="radio" name="radio-btn" id="radio1">
+            <input type="radio" name="radio-btn" id="radio2">
+            <input type="radio" name="radio-btn" id="radio3">
+            <input type="radio" name="radio-btn" id="radio4">
+            <input type="radio" name="radio-btn" id="radio5">
+
+            
+            <div class="slide first">
+              <a href="history.html">
+              <img src="../images/history.jpg">
+              <h1>HISTORY</h1>
+              </a>
+            </div>
+            <div class="slide">
+              <a href="glory.html">
+              <img src="../images/glory.jpg">
+              <h1 class="lh1">GLORY MOMENTS</h1>
+              </a>
+            </div>
+            <div class="slide">
+              <a href="clasico.html">
+              <img src="../images/clasico.jpg">
+              <h1 class="clasico">El CLASICO</h1>
+              </a>
+            </div>
+            <div class="slide">
+              <a href="campnou.html">
+              <img src="../images/stadion.jpg">
+              <h1>CAMP NOU</h1>
+              </a>
+            </div>
+            <div class="slide">
+              <a href="squad.html">
+              <img src="../images/squad.jpg">
+              <h1 class="lh1">2022/2023 SQUAD</h1>
+              </a>
+            </div>
+
+            <div class="navigation-auto">
+              <div class="auto-btn1"></div>
+              <div class="auto-btn2"></div>
+              <div class="auto-btn3"></div>
+              <div class="auto-btn4"></div>
+              <div class="auto-btn5"></div>
+            </div>
+          </div>
+          <div class="navigation-manual">
+            <label for="radio1" class="manual-btn"></label>
+            <label for="radio2" class="manual-btn"></label>
+            <label for="radio3" class="manual-btn"></label>
+            <label for="radio4" class="manual-btn"></label>
+            <label for="radio5" class="manual-btn"></label>
+          </div>
+        </div>
+      </div>
+
+      <script type="text/javascript">
+        var counter = 1;
+        setInterval(function(){
+          document.getElementById("radio" + counter).checked = true;
+          counter++;
+          if(counter > 5){
+            counter = 1
+          }
+        }, 5000);
+
+      </script>
+
+      <!-- matchboard -->
+      <!-- <h1 class="mh1">Խաղատախտակ</h1> -->
+<div class="matchboard1">
+      <div class="mtext"><h1 class="mh1">Last 2 matches</h1></div>
+      <!---------------------------------------- -->
+      <div class="container">
+        <div class="match">
+          <div class="match-header">
+            <div class="match-tournament"><img src="../images/copa.png" />Copa del Rey</div>
+          </div>
+          <div class="match-content">
+            <div class="column">
+              <div class="team team--home">
+                <div class="team-logo">
+                  <img src="../images/real.png" />
+                </div>
+                <h2 class="team-name">Real Madrid</h2>
+              </div>
+            </div>
+            <div class="column">
+              <div class="match-details">
+                <div class="match-date">
+                  2 March <strong>00:00</strong>
+                </div>
+                <div class="match-score">
+                  <span class="match-score-number match-score-number--leading">0</span>
+                  <span class="match-score-divider">:</span>
+                  <span class="match-score-number">1</span>
+                </div>
+                <div class="match-referee">
+                  Referee: <br> 
+                  <strong>Jose Munuera</strong>
+                </div>
+              </div>
+            </div>
+            <div class="column">
+              <div class="team team--away">
+                <div class="team-logo">
+              
+                  <img src="../images/logo.png" />
+                </div>
+                <h2 class="team-name">Barcelona</h2>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!---------------------------------------- -->
+      <div class="container">
+        <div class="match">
+          <div class="match-header">
+            <div class="match-tournament"><img src="../images/laliga.png" />La Liga</div>
+          </div>
+          <div class="match-content">
+            <div class="column">
+              <div class="team team--home">
+                <div class="team-logo">
+                  <img src="../images/logo.png" />
+                </div>
+                <h2 class="team-name">Barcelona</h2>
+              </div>
+            </div>
+            <div class="column">
+              <div class="match-details">
+                <div class="match-date">
+                  5 March <strong>19:15</strong>
+                </div>
+                <div class="match-score">
+                  <span class="match-score-number match-score-number--leading">1</span>
+                  <span class="match-score-divider">:</span>
+                  <span class="match-score-number">0</span>
+                </div>
+                <div class="match-referee">
+                  Referee: <br>
+                  <strong>Xavier Alberola</strong>
+                </div>
+              </div>
+            </div>
+            <div class="column">
+              <div class="team team--away">
+                <div class="team-logo">
+              
+                  <img src="../images/valencia.png" />
+                </div>
+                <h2 class="team-name">Valencia</h2>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      
+      <!---------------------------------------- -->
+
+      <div class="mtext"><h1 class="mh1">Upcoming 2 matches</h1></div>
+      <div class="container">
+        <div class="match">
+          <div class="match-header">
+            <div class="match-tournament"><img src="../images/laliga.png" />La Liga</div>
+          </div>
+          <div class="match-content">
+            <div class="column">
+              <div class="team team--home">
+                <div class="team-logo">
+                  <img src="../images/bilbao.png" />
+                </div>
+                <h2 class="team-name">Atletik Bilbao</h2>
+              </div>
+            </div>
+            <div class="column">
+              <div class="match-details">
+                <div class="match-date">
+                  12 March<strong>00:00</strong>
+                </div>
+                <div class="match-score">
+                  <span class="match-score-number match-score-number--leading"></span>
+                  <span class="match-score-divider">:</span>
+                  <span class="match-score-number"></span>
+                </div>
+                <div class="match-referee">
+                  Referee: <br>
+                  <strong> </strong>
+                </div>
+              </div>
+            </div>
+            <div class="column">
+              <div class="team team--away">
+                <div class="team-logo">
+              
+                  <img src="../images/logo.png" />
+                </div>
+                <h2 class="team-name">Barcelona</h2>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      
+      <!---------------------------------------- -->
+      <div class="container">
+        <div class="match">
+          <div class="match-header">
+            <div class="match-tournament"><img src="../images/laliga.png" />La Liga</div>
+          </div>
+          <div class="match-content">
+            <div class="column">
+              <div class="team team--home">
+                <div class="team-logo">
+                  <img src="../images/logo.png" />
+                </div>
+                <h2 class="team-name">Barcelona</h2>
+              </div>
+            </div>
+            <div class="column">
+              <div class="match-details">
+                <div class="match-date">
+                  19 March <strong>00:00</strong>
+                </div>
+                <div class="match-score">
+                  <span class="match-score-number match-score-number--leading"></span>
+                  <span class="match-score-divider">:</span>
+                  <span class="match-score-number"></span>
+                </div>
+                <div class="match-referee">
+                  Referee: <br>
+                  <strong> </strong>
+                </div>
+              </div>
+            </div>
+            <div class="column">
+              <div class="team team--away">
+                <div class="team-logo">
+              
+                  <img src="../images/real.png" />
+                </div>
+                <h2 class="team-name">Real Madrid</h2>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+</div>
+
+      <!-- footer -->
+      <div class="footer">
+        <div class="footer1">
+          <img src="../images/logo.png">
+          <h1> <span>FC</span>  BARCELONA</h1>
+        </div>
+        <div class="logos">
+          <img src="../images/nike.png">
+          <img src="../images/spotify.png" id = "spotify">
+        </div>
+      </div>
+      <p class="cop">© Copyright FC Barcelona Official website of FC Barcelona</p>
+      <div class="grad"></div>
+</body>
+
+</html>
